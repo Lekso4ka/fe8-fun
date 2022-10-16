@@ -1,0 +1,21 @@
+body {
+    margin: 0;
+}
+.weather {
+    height: 100vh;
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(3, auto);
+    justify-content: center;
+    align-content: center;
+}
+.item {
+    width: 70px;
+    height: 70px;
+    box-shadow: -2px 3px 7px 0 #0008;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+}
